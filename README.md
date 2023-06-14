@@ -1,7 +1,7 @@
 # [Triple Memory Networks: a Brain-Inspired Method for Continual Learning (TNNLS2021)]() 
 
 
-## Training and Testing
+## Execution command
 To run the cifar-10 experiment:
 ```
 cd cifar10
