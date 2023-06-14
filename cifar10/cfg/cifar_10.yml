@@ -1,0 +1,27 @@
+method: 'TMNs'
+dataset: 'cifar'
+log_dir: './logs/TMNs/cifar/'
+dataroot: 'dat/cifar'
+outf: 'outputs/cifar10/TMNs/outputs_32/imgs' #'outputs/cifar10/DGMw/outputs_32/imgs' #
+outf_models: 'outputs/cifar10/TMNs/outputs_32/models' #'outputs/cifar10/DGMw/outputs_32/models' #
+batchSize: 64
+imageSize: 32
+manualSeed: 0
+nz: 128
+ngf: 20
+ndf: 128
+niter: 251
+lr_D: 0.0002
+lr_G: 0.0002
+beta1: 0.5
+cuda: True
+device: 0
+device_D: 'cuda:0'
+device_G: 'cuda:0'
+smax_g: !!float 1e4
+lamb_G: 0.001
+lambda_adv: 1.
+lambda_wasserstein: !!float 0.6
+reinit_D : True
+store_models: False
+aux_G: False

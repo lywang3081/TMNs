@@ -1,0 +1,31 @@
+method: 'TMNs'
+dataset: 'imagenet'
+log_dir: './logs/TMNs/logs_imnet/'
+dataroot: '/data/LargeData/Large/ImageNet/train'
+dataroot_val: '/data/LargeData/Large/ImageNet/val'
+outf:  'outputs/imagenet/DGMw/outputs_32/imgs' #'outputs/imagenet/TMNs/outputs_32/imgs'
+outf_models: 'outputs/imagenet/DGMw/outputs_32/models' #'outputs/imagenet/TMNs/outputs_32/models'
+batchSize: 70
+imageSize: 32
+workers: 5
+manualSeed: 100
+nz: 128
+ngf: 64
+ndf: 128
+niter: 101
+lr_D: 0.0002
+lr_G: 0.0002
+beta1: 0.5
+cuda: True
+device: 2
+device_D: 'cuda:3'
+device_G: 'cuda:2'
+smax_g: !!float 1e4
+lamb_G: 0.001
+lambda_adv: 1.
+lambda_wasserstein: !!float 0.6
+reinit_D : False
+store_models: False
+aux_G: True
+calc_fid_imnet: False
+class_idx_imnet: [1,15,29,45,59,65,81,89,90,99]
