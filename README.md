@@ -1,4 +1,4 @@
-#Triple Memory Networks: a Brain-Inspired Method for Continual Learning
+This is the official implementation of our paper "Triple Memory Networks: a Brain-Inspired Method for Continual Learning" published on TNNLS, 2021.
 
 
 ## Training and Testing
