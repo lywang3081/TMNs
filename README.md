@@ -1,4 +1,4 @@
-# [Triple Memory Networks: a Brain-Inspired Method for Continual Learning (TNNLS2021)]() 
+# [Triple Memory Networks: a Brain-Inspired Method for Continual Learning (TNNLS 2021)]() 
 
 
 ## Execution command
